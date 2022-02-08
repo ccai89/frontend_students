@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+html {
+  background-color: #ccc;
+  font-family: 'Raleway';
+}
+
+.main_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  width: 7vw;
+  border: transparent;
+  padding: 10px 0px 0px 30px;
+  color: #999;
+  font-family: 'Raleway';
+  font-size: 1em;
+  outline: none;
+}
+
+.class {
+  box-shadow: 2px 1px 1px grey;
+  width: 75vw;
+  height: 75vh;
+  border: 2px solid #aaa;
+  border-radius: 15px;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.student {
+  display: grid;
+  grid-template-columns: 17.5% 77.5% 5%;
+  border: 1px solid #eee;
+  border-top: 0px;
+  align-items: center;
+}
+
+.picture {
+  border: 1px solid #eee;
+  justify-self: center;
+  border-radius: 50%;
+  width: 10em;
+ }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1em;
+}
+
+.info h1 {
+  margin: .2em 0px .2em;
+  align-items: center;
+}
+
+.details {
+  margin-left: 1.25em;
+  color: #999
+}
+
+.toggle {
+  align-self: flex-start;
+  font-size: 3.5em;
+  color: #bbb;
+  font-weight: 400;
+}
+
+.tag_input {
+  border-width: 0px 0px 1px 0px; 
+  outline: none;
+  height: 1.5em;
+  margin: 2em;
+}
+
+.tags {
+  padding: 10px;
+  margin-top:20px;
+  margin: 2px;
+  color: black;
+  background-color: #ddd;
+  border-radius: 6px;
+}
